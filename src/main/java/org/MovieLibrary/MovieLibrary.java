@@ -22,8 +22,7 @@ public class MovieLibrary {
     public void displayMoviesCreatedBetweenDates(String startDate, String endDate) {
         movies
                 .stream()
-                .filter(movie -> Integer.parseInt(movie.getDate()) > Integer.parseInt(startDate))
-                .filter(movie -> Integer.parseInt(movie.getDate()) < Integer.parseInt(endDate))
+                .filter(movie -> Integer.parseInt(movie.getDate()) > Integer.parseInt(startDate) && Integer.parseInt(movie.getDate()) < Integer.parseInt(endDate))
                 .forEach(movie -> System.out.println((movie) + "\n"));
     }
 
@@ -33,9 +32,7 @@ public class MovieLibrary {
                 .stream()
                 .filter(movie -> movie.getActors()
                         .stream()
-                        .filter(actor -> actor.getFirstName().equals(firstName) && actor.getLastName().equals(lastName))
-                        .findFirst()
-                        .isPresent())
+                        .anyMatch(actor -> actor.getFirstName().equals(firstName) && actor.getLastName().equals(lastName)))
                 .forEach(movie -> System.out.println((movie) + "\n"));
 
     }
