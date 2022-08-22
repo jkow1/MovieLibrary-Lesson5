@@ -1,4 +1,4 @@
-package org.example;
+package org.MovieLibary;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
