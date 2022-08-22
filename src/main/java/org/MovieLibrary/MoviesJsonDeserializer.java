@@ -7,7 +7,11 @@ import java.io.IOException;
 
 public class MoviesJsonDeserializer {
 
-    public MovieLibrary deserializeJson(String src) throws IOException {
-        return new ObjectMapper().readValue((new File(src)), MovieLibrary.class);
+    public static MovieLibrary deserializeJson(String src){
+        try {
+            return new ObjectMapper().readValue((new File(src)), MovieLibrary.class);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
