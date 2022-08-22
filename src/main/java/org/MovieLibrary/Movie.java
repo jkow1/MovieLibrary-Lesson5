@@ -1,4 +1,4 @@
-package org.MovieLibary;
+package org.MovieLibrary;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -41,5 +41,13 @@ public class Movie {
 
     public void setActors(ArrayList<Actor> actors) {
         this.actors = actors;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public ArrayList<Actor> getActors() {
+        return actors;
     }
 }
