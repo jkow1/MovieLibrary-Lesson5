@@ -1,117 +1,163 @@
 {
-  "movies":[
+  "movies": [
     {
-      "title":"The Shawshank Redemption",
-      "director":{
-        "firstName":"Frank",
-        "lastName":"Darabont"
+      "title": "The Shawshank Redemption",
+      "director": {
+        "firstName": "Frank",
+        "lastName": "Darabont"
       },
-      "genre":"DRAMA",
-      "date":"1994",
-      "actors":[
+      "genre": "DRAMA",
+      "date": "1994",
+      "actors": [
         {
-          "firstName":"Tim",
-          "lastName":"Robbins"
+          "firstName": "Tim",
+          "lastName": "Robbins"
         },
         {
-          "firstName":"Morgan",
-          "lastName":"Freeman"
+          "firstName": "Morgan",
+          "lastName": "Freeman"
         },
         {
-          "firstName":"Bob",
-          "lastName":"Gunton"
+          "firstName": "Bob",
+          "lastName": "Gunton"
         }
       ]
     },
     {
-      "title":"Seven",
-      "director":{
-        "firstName":"David",
-        "lastName":"Fincher"
+      "title": "Seven",
+      "director": {
+        "firstName": "David",
+        "lastName": "Fincher"
       },
-      "genre":"THRILLER",
-      "date":"1995",
-      "actors":[
+      "genre": "THRILLER",
+      "date": "1995",
+      "actors": [
         {
-          "firstName":"Morgan",
-          "lastName":"Freeman"
+          "firstName": "Morgan",
+          "lastName": "Freeman"
         },
         {
-          "firstName":"Brad",
-          "lastName":"Pitt"
+          "firstName": "Brad",
+          "lastName": "Pitt"
         },
         {
-          "firstName":"Gwyneth",
-          "lastName":"Paltrow"
+          "firstName": "Gwyneth",
+          "lastName": "Paltrow"
         }
       ]
     },
     {
-      "title":"Bullet Train",
-      "director":{
-        "firstName":"David",
-        "lastName":"Leitch"
+      "title": "Bullet Train",
+      "director": {
+        "firstName": "David",
+        "lastName": "Leitch"
       },
-      "genre":"ACTION",
-      "date":"2022",
-      "actors":[
+      "genre": "ACTION",
+      "date": "2022",
+      "actors": [
         {
-          "firstName":"Hiroyuki",
-          "lastName":"Sanada"
+          "firstName": "Hiroyuki",
+          "lastName": "Sanada"
         },
         {
-          "firstName":"Brad",
-          "lastName":"Pitt"
+          "firstName": "Brad",
+          "lastName": "Pitt"
         },
         {
-          "firstName":"Sandra",
-          "lastName":"Bullock"
+          "firstName": "Sandra",
+          "lastName": "Bullock"
         }
       ]
     },
     {
-      "title":"Top Gun Mavrick",
-      "director":{
-        "firstName":"Joseph",
-        "lastName":"Kosinski"
+      "title": "Top Gun Mavrick",
+      "director": {
+        "firstName": "Joseph",
+        "lastName": "Kosinski"
       },
-      "genre":"ACTION",
-      "date":"2020",
-      "actors":[
+      "genre": "ACTION",
+      "date": "2020",
+      "actors": [
         {
-          "firstName":"Tom",
-          "lastName":"Cruise"
+          "firstName": "Tom",
+          "lastName": "Cruise"
         },
         {
-          "firstName":"Val",
-          "lastName":"Kilmer"
+          "firstName": "Val",
+          "lastName": "Kilmer"
         },
         {
-          "firstName":"Miles",
-          "lastName":"Teller"
+          "firstName": "Miles",
+          "lastName": "Teller"
         }
       ]
     },
     {
-      "title":"Thor: Love and Thunder",
-      "director":{
-        "firstName":"Taika",
-        "lastName":"Waititi"
+      "title": "Thor: Love and Thunder",
+      "director": {
+        "firstName": "Taika",
+        "lastName": "Waititi"
       },
-      "genre":"FANTASY",
-      "date":"2022",
-      "actors":[
+      "genre": "FANTASY",
+      "date": "2022",
+      "actors": [
         {
-          "firstName":"Chris",
-          "lastName":"Hemsworth"
+          "firstName": "Chris",
+          "lastName": "Hemsworth"
         },
         {
-          "firstName":"Natalie",
-          "lastName":"Portman"
+          "firstName": "Natalie",
+          "lastName": "Portman"
         },
         {
-          "firstName":"Chris",
-          "lastName":"Pratt"
+          "firstName": "Chris",
+          "lastName": "Pratt"
+        }
+      ]
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "director": {
+        "firstName": "Peter",
+        "lastName": "Jackson"
+      },
+      "genre": "ADVENTURE",
+      "date": "2001",
+      "actors": [
+        {
+          "firstName": "Elijah",
+          "lastName": "Wood"
+        },
+        {
+          "firstName": "Ian",
+          "lastName": "McKellen"
+        },
+        {
+          "firstName": "Orlando",
+          "lastName": "Bloom"
+        }
+      ]
+    },
+    {
+      "title": "The Dark Knight",
+      "director": {
+        "firstName": "Christopher",
+        "lastName": "Nolan"
+      },
+      "genre": "ACTION",
+      "date": "2008",
+      "actors": [
+        {
+          "firstName": "Christian",
+          "lastName": "Bale"
+        },
+        {
+          "firstName": "Heath",
+          "lastName": "Ledger"
+        },
+        {
+          "firstName": "Morgan",
+          "lastName": "Freeman"
         }
       ]
     }

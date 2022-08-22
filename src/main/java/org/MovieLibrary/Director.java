@@ -1,15 +1,16 @@
-package org.MovieLibary;
+package org.MovieLibrary;
 
-public class Actor {
+public class Director {
     private String firstName;
     private String lastName;
 
-    public Actor() {
+    public Director() {
     }
 
     @Override
     public String toString() {
-        return firstName + ' ' + lastName;
+        return firstName + ' ' +
+                lastName;
     }
 
     public void setFirstName(String firstName) {
